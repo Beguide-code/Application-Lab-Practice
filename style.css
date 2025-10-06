@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(world.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+     height: 100vh; /* Celui qui met le big au centre centre */
+}
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-width: 450px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid #000000;
+  }
+h1
+{
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #333;
+}
+button{
+    width: 100%;
+    padding: 15px 50px;
+    font-size: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+   
+    box-shadow: 2px 2px 8px #000000;
+}
