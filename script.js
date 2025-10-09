@@ -321,7 +321,7 @@ hint.addEventListener("mouseover", ()=>{
 function result(){
     let score = document.createElement("p");
     // score.classList.add(".result");
-    score.textContent = "Congtatulations you rightly guessed the country!!!";
+    score.textContent = "Congratulations my friend you correctly guessed the country!!!";
     score.classList.add("score")
     parentScore = document.querySelector(".result");
     parentScore.appendChild(score);
